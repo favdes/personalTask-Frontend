@@ -1,0 +1,190 @@
+:root{
+/* /* background: #263238;
+background: #000000;
+background: #FFFFFF;
+background: #974FD0;
+background: #757575;
+background: #292929;
+background: #737171;
+background: #8C8C8C;
+background: #FAF9FB;
+background: #F38383; 
+background: #73C3A6; */ 
+/* background: #CCCCCC; */
+/* /* border: 1px solid #B8B6B6 */
+} 
+.nav{
+    color:  #000000;
+}.task{
+    color:   #000000;
+}
+.p{
+  color: #737171;
+  ;
+}
+
+.add{
+    color:  #974FD0;
+    
+}
+.btn{
+    background-color: #974FD0;
+    color: #FAF9FB;
+    width: 11rem;
+    height: 3rem;
+    border-radius: 0.5rem;
+}
+.btn:hover{
+    background-color: #974FD0;
+    border: none;
+}
+
+.btntext{
+    color: #FAF9FB;
+}
+.btntext:hover{
+    color: #FAF9FB;
+}
+.taskduty{
+    color: #974FD0;
+}
+.add img{
+    width: 1.2rem;
+    height: 1rem;
+    
+}
+.add-text{
+    color: #974FD0;
+}
+.edit{
+    color: #FAF9FB;
+}
+.btn1{
+    background-color: #974FD0;
+    color: #FAF9FB;
+    border: none;
+    border-radius: 0.4rem;
+    width: 5rem;
+    height: 2.5rem;
+}
+.delete{
+    background-color: #FAF9FB;
+    color: #974FD0;
+    border-radius: 0.5rem;
+    border-color: #7006c7;
+}
+.top{
+    color: #974FD0;
+}
+.next{
+    line-height: 3rem;
+}
+.input-container{
+    position: relative;
+    border: 1px solid #B8B6B6;
+}
+.input-container2{
+    position: relative;
+    border: 1px solid #B8B6B6;
+}
+.task-title{
+    color: #737171;
+    position: absolute;
+    top: -30%    ;
+    left: 3%;
+    background-color: white;
+    padding: 3px;
+}
+.task-title2{
+    color: #737171;
+    position: absolute;
+    top: -12%;
+    left: 3%;
+    background-color: white;
+    padding: 3px;
+    
+}
+.input{
+    color:  #CCCCCC;
+}
+.input1{
+    color:#CCCCCC;
+    
+} 
+.don{
+    background-color: #974FD0;
+    height: 5rem;
+    width: 70rem;
+    border-radius: 0.5rem;
+}
+.don:hover{
+    background-color: #974FD0;
+    border-radius: none;
+
+}
+.dontext{
+    background-color: #974FD0;
+    color: #FAF9FB;
+}
+.dontext:hover{
+    color: #FAF9FB;
+
+}
+.btt{
+    color: #974FD0;
+}
+.footer{
+    margin-top: 1rem;
+    background-color: #CCCCCC;
+    color: #FAF9FB;
+    border: none;
+
+}
+
+.top{
+    background-color: #974FD0;
+    color: #FAF9FB;
+    width: 70rem;
+    border: none;
+    margin-top: 2rem;
+    
+}
+.inputin{
+    height: 180px; 
+    color: #CCCCCC;
+    
+       
+}
+
+.desc{
+    margin-top:0rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
