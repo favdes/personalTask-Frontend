@@ -1,4 +1,4 @@
-import React from "react";
+
 import Container from "react-bootstrap/Container";
 import img1 from "../images/Vector (4).png";
 import img2 from "../images/Vector (5).png";

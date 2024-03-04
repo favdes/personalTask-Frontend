@@ -22,7 +22,7 @@ const MyTask = () => {
   const getData = async ()=>{
     try{
       setIsLoading(true);
-      const fetcher =await axios.get("http://localhost:9090/api/user");
+      const fetcher =await axios.get("https://personaltasks-backend.onrender.com/api/user");
       console.log(fetcher.data.tasks);
 
       setDate(fetcher.data.tasks);

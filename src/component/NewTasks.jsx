@@ -1,7 +1,7 @@
-import React,{useState} from 'react'
+import {useState} from 'react'
 import img1 from '../images/Vector (4).png' 
 import Container from "react-bootstrap/Container";
-import img2 from '../images/Vector (5).png'
+// import img2 from '../images/Vector (5).png'
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import { Link } from 'react-router-dom';
@@ -21,7 +21,7 @@ const NewTasks = () => {
     e.preventDefault()
     // console.log("hello world");
     try{
-      const data = await axios.post(' http://localhost:9090/api/user',{
+      const data = await axios.post(' https://personaltasks-backend.onrender.com/api/user',{
         taskTitle,
         Description,
         tags

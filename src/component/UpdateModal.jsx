@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { useState ,useEffect} from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
@@ -22,9 +22,8 @@ let getData = async () => {
     try {
     //   setIsLoading(true);
 
-      let dataGotten = await axios.get(
-         (` http://localhost:9090/api/user/${taskId}`)
-      );
+      let dataGotten = await axios.get(`https://personaltasks-backend.onrender.com/api/user/${taskId}`)
+      ;
       console.log(dataGotten.data.task);
       setTaskTitle(dataGotten.data.task.taskTitle);
       setDescription(dataGotten.data.task.Description);
