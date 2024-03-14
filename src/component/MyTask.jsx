@@ -1,17 +1,5 @@
-import React , {useEffect, useState}from "react";
-import NavBar from "./NavBar";
+import {useEffect, useState}from "react";
 import '../style/mytask.css'
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
-import img1 from "../images/fluent_add-24-filled.png";
-import img2 from "../images/clarity_note-edit-line.png";
-import img3 from "../images/Vector (1).png";
-import Card from "react-bootstrap/Card";
-import { Link } from "react-router-dom";
-import img4 from "../images/Vector (5).png";
-import img5 from '../images/Urgent.png';
-import img6 from '../images/Important.png'
 import axios from "axios";
 import Spinner from 'react-bootstrap/Spinner'
 

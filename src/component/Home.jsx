@@ -1,4 +1,4 @@
-import React from "react";
+
 import img1 from "../images/Component 1.png";
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
             perspiciatis, voluptate cum magni. Quo neque vitae commodi at,
             voluptatibus necessitatibus eius minima cupiditate, hic quos modi.
           </p>
-          <button type="button" class="btn btn-">
+          <button type="button" className="btn btn-">
            <h5 className="btntext"> Go To My Tasks</h5>
           </button>
         </div>
